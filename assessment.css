@@ -1,0 +1,24 @@
+body{
+    background-color: #04A6EB;
+    color: #FDFFFF;
+    width: 500px;
+    /* webページの横幅が500pxになる */
+    margin-right: auto;
+    /* 値 auto は自動調節。margin は border の外側の余白 */
+    margin-left: auto;
+    /* body 要素の左右の余白を自動調節しているので webページは左右に対して中央に表示される */
+}
+button{
+    padding: 5px 20px;
+    /* padding は border の内側の余白。1項目なら全周、2項目なら上下と左右の順での設定になる。h や p タグなども margin以外にpaddingやborderの要素を変更できる */
+    background-color: #337AB7;
+    color: #FDFFFF;
+    border-color: #2E6DA4;
+    /* border は境界線の意味。ここでは境界線の色を設定 */
+    border-style: none;
+    /* 境界線のスタイル。なお、none は境界線を表示しないという設定 */
+}
+input{
+    height: 20px;
+    /* heightは高さの調整。入力欄の高さをボタンの高さと調整して設定 */
+}
